@@ -1,0 +1,12 @@
+<div class="card">
+  <p-chart type="line" [data]="data" [options]="options" />
+</div>
+
+<button (click)="getTemperature()"> Start real-time data</button>
+<button (click)="stopTemperature()"> Stop real-time data</button>
+
+<div class="card">
+  <p-chart type="bar" [data]="basicData" [options]="basicOptions" />
+</div>
+
+<button (click)="getYearsSales()"> Display year's sales</button>
